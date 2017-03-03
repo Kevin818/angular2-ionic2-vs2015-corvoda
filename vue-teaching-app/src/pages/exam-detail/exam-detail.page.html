@@ -1,0 +1,104 @@
+<!--
+  Generated template for the ExamDetail page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>{{exam.examName}}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <dl id="17f51c93-8e1f-4389-a837-ef22fbe15f6b">  
+
+
+                    <dt class="ng-binding">1.&nbsp;&nbsp;如图所示，属于下列哪种基本病变类型：(1<span>分</span>)</dt>
+                    <dd ng-bind-html="question.description" class="ng-binding">
+                      <img src="../assets/image/diagnostic-chest-1.jpg" style="max-height: 250px" />
+                      </dd>
+                    <dd>
+                        <ul>
+                            <!-- ngRepeat: op in question.examOptions --><li ng-repeat="op in question.examOptions" ng-class="{checkbox:$parent.question.examType==2,radio:$parent.question.examType==1}" class="ng-scope radio">
+                                <label>
+                                    <!-- ngIf: $parent.question.examType==1 --><input ng-disabled="disablePaper||$parent.exerciseSubmited" ng-if="$parent.question.examType==1" type="radio" name="17f51c93-8e1f-4389-a837-ef22fbe15f6b" ng-click="singleSelected(op,$parent.question)" class="ng-scope"><!-- end ngIf: $parent.question.examType==1 -->
+                                    <!-- ngIf: $parent.question.examType==2 -->
+                                    <span class="ng-binding">A</span>.&nbsp;&nbsp;<span class="ng-binding">骨质疏松</span>
+                                </label>
+                            </li><!-- end ngRepeat: op in question.examOptions --><li ng-repeat="op in question.examOptions" ng-class="{checkbox:$parent.question.examType==2,radio:$parent.question.examType==1}" class="ng-scope radio">
+                                <label>
+                                    <!-- ngIf: $parent.question.examType==1 --><input ng-disabled="disablePaper||$parent.exerciseSubmited" ng-if="$parent.question.examType==1" type="radio" name="17f51c93-8e1f-4389-a837-ef22fbe15f6b" ng-click="singleSelected(op,$parent.question)" class="ng-scope"><!-- end ngIf: $parent.question.examType==1 -->
+                                    <!-- ngIf: $parent.question.examType==2 -->
+                                    <span class="ng-binding">B</span>.&nbsp;&nbsp;<span class="ng-binding">骨质软化</span>
+                                </label>
+                            </li><!-- end ngRepeat: op in question.examOptions --><li ng-repeat="op in question.examOptions" ng-class="{checkbox:$parent.question.examType==2,radio:$parent.question.examType==1}" class="ng-scope radio">
+                                <label>
+                                    <!-- ngIf: $parent.question.examType==1 --><input ng-disabled="disablePaper||$parent.exerciseSubmited" ng-if="$parent.question.examType==1" type="radio" name="17f51c93-8e1f-4389-a837-ef22fbe15f6b" ng-click="singleSelected(op,$parent.question)" class="ng-scope"><!-- end ngIf: $parent.question.examType==1 -->
+                                    <!-- ngIf: $parent.question.examType==2 -->
+                                    <span class="ng-binding">C</span>.&nbsp;&nbsp;<span class="ng-binding">骨质破坏</span>
+                                </label>
+                            </li><!-- end ngRepeat: op in question.examOptions --><li ng-repeat="op in question.examOptions" ng-class="{checkbox:$parent.question.examType==2,radio:$parent.question.examType==1}" class="ng-scope radio">
+                                <label>
+                                    <!-- ngIf: $parent.question.examType==1 --><input ng-disabled="disablePaper||$parent.exerciseSubmited" ng-if="$parent.question.examType==1" type="radio" name="17f51c93-8e1f-4389-a837-ef22fbe15f6b" ng-click="singleSelected(op,$parent.question)" class="ng-scope"><!-- end ngIf: $parent.question.examType==1 -->
+                                    <!-- ngIf: $parent.question.examType==2 -->
+                                    <span class="ng-binding">D</span>.&nbsp;&nbsp;<span class="ng-binding">骨质坏死</span>
+                                </label>
+                            </li><!-- end ngRepeat: op in question.examOptions --><li ng-repeat="op in question.examOptions" ng-class="{checkbox:$parent.question.examType==2,radio:$parent.question.examType==1}" class="ng-scope radio">
+                                <label>
+                                    <!-- ngIf: $parent.question.examType==1 --><input ng-disabled="disablePaper||$parent.exerciseSubmited" ng-if="$parent.question.examType==1" type="radio" name="17f51c93-8e1f-4389-a837-ef22fbe15f6b" ng-click="singleSelected(op,$parent.question)" class="ng-scope"><!-- end ngIf: $parent.question.examType==1 -->
+                                    <!-- ngIf: $parent.question.examType==2 -->
+                                    <span class="ng-binding">E</span>.&nbsp;&nbsp;<span class="ng-binding">骨膜反应</span>
+                                </label>
+                            </li><!-- end ngRepeat: op in question.examOptions -->
+                        </ul>
+                    </dd>
+                </dl>
+<div ng-repeat="question in questions" class="ng-scope">
+                <dl id="18fed29a-5f79-481a-98fe-c3051d0a3ba1">
+                    <dt class="ng-binding">2.&nbsp;&nbsp;如图所示，属于下列哪种基本病变类型：(1<span>分</span>)</dt>
+                    <dd ng-bind-html="question.description" class="ng-binding">
+                      <img src="../assets/image/diagnostic-chest-1.jpg" style="max-height: 250px" />
+                      </dd>
+                    <dd>
+                        <ul>
+                            <!-- ngRepeat: op in question.examOptions --><li ng-repeat="op in question.examOptions" ng-class="{checkbox:$parent.question.examType==2,radio:$parent.question.examType==1}" class="ng-scope radio">
+                                <label>
+                                    <!-- ngIf: $parent.question.examType==1 --><input ng-disabled="disablePaper||$parent.exerciseSubmited" ng-if="$parent.question.examType==1" type="radio" name="18fed29a-5f79-481a-98fe-c3051d0a3ba1" ng-click="singleSelected(op,$parent.question)" class="ng-scope"><!-- end ngIf: $parent.question.examType==1 -->
+                                    <!-- ngIf: $parent.question.examType==2 -->
+                                    <span class="ng-binding">A</span>.&nbsp;&nbsp;<span class="ng-binding">骨质破坏</span>
+                                </label>
+                            </li><!-- end ngRepeat: op in question.examOptions --><li ng-repeat="op in question.examOptions" ng-class="{checkbox:$parent.question.examType==2,radio:$parent.question.examType==1}" class="ng-scope radio">
+                                <label>
+                                    <!-- ngIf: $parent.question.examType==1 --><input ng-disabled="disablePaper||$parent.exerciseSubmited" ng-if="$parent.question.examType==1" type="radio" name="18fed29a-5f79-481a-98fe-c3051d0a3ba1" ng-click="singleSelected(op,$parent.question)" class="ng-scope"><!-- end ngIf: $parent.question.examType==1 -->
+                                    <!-- ngIf: $parent.question.examType==2 -->
+                                    <span class="ng-binding">B</span>.&nbsp;&nbsp;<span class="ng-binding">骨质增生硬化</span>
+                                </label>
+                            </li><!-- end ngRepeat: op in question.examOptions --><li ng-repeat="op in question.examOptions" ng-class="{checkbox:$parent.question.examType==2,radio:$parent.question.examType==1}" class="ng-scope radio">
+                                <label>
+                                    <!-- ngIf: $parent.question.examType==1 --><input ng-disabled="disablePaper||$parent.exerciseSubmited" ng-if="$parent.question.examType==1" type="radio" name="18fed29a-5f79-481a-98fe-c3051d0a3ba1" ng-click="singleSelected(op,$parent.question)" class="ng-scope"><!-- end ngIf: $parent.question.examType==1 -->
+                                    <!-- ngIf: $parent.question.examType==2 -->
+                                    <span class="ng-binding">C</span>.&nbsp;&nbsp;<span class="ng-binding">骨膜异常</span>
+                                </label>
+                            </li><!-- end ngRepeat: op in question.examOptions --><li ng-repeat="op in question.examOptions" ng-class="{checkbox:$parent.question.examType==2,radio:$parent.question.examType==1}" class="ng-scope radio">
+                                <label>
+                                    <!-- ngIf: $parent.question.examType==1 --><input ng-disabled="disablePaper||$parent.exerciseSubmited" ng-if="$parent.question.examType==1" type="radio" name="18fed29a-5f79-481a-98fe-c3051d0a3ba1" ng-click="singleSelected(op,$parent.question)" class="ng-scope"><!-- end ngIf: $parent.question.examType==1 -->
+                                    <!-- ngIf: $parent.question.examType==2 -->
+                                    <span class="ng-binding">D</span>.&nbsp;&nbsp;<span class="ng-binding">骨质坏死</span>
+                                </label>
+                            </li><!-- end ngRepeat: op in question.examOptions --><li ng-repeat="op in question.examOptions" ng-class="{checkbox:$parent.question.examType==2,radio:$parent.question.examType==1}" class="ng-scope radio">
+                                <label>
+                                    <!-- ngIf: $parent.question.examType==1 --><input ng-disabled="disablePaper||$parent.exerciseSubmited" ng-if="$parent.question.examType==1" type="radio" name="18fed29a-5f79-481a-98fe-c3051d0a3ba1" ng-click="singleSelected(op,$parent.question)" class="ng-scope"><!-- end ngIf: $parent.question.examType==1 -->
+                                    <!-- ngIf: $parent.question.examType==2 -->
+                                    <span class="ng-binding">E</span>.&nbsp;&nbsp;<span class="ng-binding">矿物质沉积</span>
+                                </label>
+                            </li><!-- end ngRepeat: op in question.examOptions -->
+                        </ul>
+                    </dd>
+                    
+                </dl>
+            </div>
+</ion-content>

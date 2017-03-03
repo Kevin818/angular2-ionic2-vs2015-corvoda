@@ -1,0 +1,22 @@
+<ion-menu [content]="content">
+  <ion-header>
+    <ion-toolbar>
+      <ion-title color="primary">Vue Teaching</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content>
+    <ion-list>
+      <ion-list-header>导航栏</ion-list-header>
+      <button menuClose ion-item (click)="goHome()">主页</button>
+      <button menuClose ion-item (click)="goHome()">我的课程</button>
+      <button menuClose ion-item (click)="goToMyFavorates()">我的收藏</button>
+      <button menuClose ion-item (click)="goToMyExams()">我的习题</button>
+      <button menuClose ion-item (click)="goToCourses()">搜索课程</button>
+    </ion-list>
+  </ion-content>
+
+</ion-menu>
+
+<!-- Disable swipe-to-go-back because it's poor UX to combine STGB with side menus -->
+<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>
